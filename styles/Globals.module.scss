@@ -1,0 +1,20 @@
+$bp-large: 1200px;
+$bp-medium: 800px;
+$bp-small:  500px;
+
+.reset {
+    a {
+        text-decoration-line: none;
+    }
+}
+
+.layout {
+    margin-top: 50px;
+}
+
+@media ( min-width: $bp-small ) {
+    .wrapper {
+        width: 100%;
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,23 @@
+.columnWrapper {
+    display: flex;
+    flex-flow: row;
+
+    .columnLeft,
+    .columnRight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .columnLeft {
+        width: 40%;
+    }
+
+    .columnRight {
+        width: 60%;
+
+        img {
+            width: 90%;
+        }
+    }
+}

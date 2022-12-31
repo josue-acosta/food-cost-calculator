@@ -1,0 +1,25 @@
+.container {
+    ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        list-style: none;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+
+        li {
+
+            a {
+                display: block;
+                padding: 10px 15px;
+                color: white;
+                text-decoration: none
+            }
+
+        };
+    }
+}
